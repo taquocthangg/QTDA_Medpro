@@ -10,7 +10,6 @@ module.exports = (sequelize, DataTypes) => {
          * The `models/index` file will call this method automatically.
          */
         static associate(models) {
-            // define association here
             Rate.belongsTo(models.User, {
                 foreignKey: 'userID',
                 as: 'user', // Tùy chọn: Đặt tên cho mối quan hệ, giúp phân biệt với các mối quan hệ khác
