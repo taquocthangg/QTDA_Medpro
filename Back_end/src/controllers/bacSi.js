@@ -1,5 +1,5 @@
 import * as services from '../sevices'
-
+// Khum biếc code rì :))))
 export const getDocter = async (req, res) => {
     try {
         const result = await services.getDocter(req.query);
