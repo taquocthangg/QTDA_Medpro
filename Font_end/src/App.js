@@ -25,8 +25,6 @@ import ScrollToTop from "./componnets/ScrollToTop.js";
 import BackToTop from "./componnets/BackToTop.js";
 import Choose from "./componnets/ChonBenhVien/Choose.jsx";
 import ChonChucNang from "./componnets/ChonHinhThuc/ChonChucNang.jsx";
-import { useState } from "react";
-import { useEffect } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import Admin from "./Admin/Admin.jsx";
 import QuanLyBV from "./Admin/QuanLyBV.jsx";
