@@ -10,7 +10,6 @@
 
 // module.exports = router
 
-// routes/news.js
 
 import * as controller from '../controllers'
 import express from 'express'
