@@ -22,7 +22,7 @@
 //     }
 // }
 
-// connectionDataBase()
+
 
 
 const { Sequelize } = require('sequelize');
