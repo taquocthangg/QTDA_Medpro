@@ -17,7 +17,7 @@ function initialize(io) {
             if (activateDay) {
                 await getLichKham(socket, doctorId, activateDay)
             }
-            // Kiểm tra xem người dùng đã tham gia nhóm của bác sĩ này chưa
+            // Kiểm tra xem người dùng đã tham gia nhóm của bác sĩ này chưaa
             const hasJoined = joinedGroups.has(`${userId}-${doctorId}`);
             if (hasJoined) {
                 console.error('User has already joined this group');
