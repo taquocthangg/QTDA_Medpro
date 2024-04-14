@@ -6,7 +6,7 @@ import bcrypt from 'bcryptjs'
 const hashPassword = password => bcrypt.hashSync(password, bcrypt.genSaltSync(9))
 
 
-// Hàm đăng ký
+// Hàm đăng ký user
 export const dangKi = ({ name, email, password, gioiTinh, sdt, diaChi, namSinh, role_id, avatar }) => new Promise(async (resolve, reject) => {
     try {
         const response = await db.User.findOrCreate({
