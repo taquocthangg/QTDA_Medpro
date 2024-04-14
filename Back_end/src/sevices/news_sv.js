@@ -1,27 +1,6 @@
 import db from "../models";
 
-// export const addNews = ({ image, title, description, htmlContent, markDownContent, news_types, author }) => new Promise(async (resolve, reject) => {
-//     try {
-//         const response = await db.New.findOrCreate({
-//             where: { title },
-//             defaults: {
-//                 image,
-//                 title,
-//                 description,
-//                 htmlContent,
-//                 markDownContent,
-//                 news_types,
-//                 author,
-//             }
-//         })
-//         resolve({
-//             err: response[1] ? 0 : 1,
-//             mess: response[1] ? 'Thêm mới tin tức thành công !!!' : "Tin tức đã tồn tại",
-//         });
-//     } catch (error) {
-//         reject(error);
-//     }
-// });
+
 export const addNews = (io, { image, title, description, htmlContent, markDownContent, news_types, author }) => {
     return new Promise(async (resolve, reject) => {
         try {
