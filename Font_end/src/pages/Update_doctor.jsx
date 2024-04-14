@@ -4,7 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import "../css/Update_User_Detail.css";
 import background_Admin from "../img/Admin/backgroundUpdate.webp";
 import { IoArrowBackSharp } from "react-icons/io5";
-import { Link } from "react-router-dom";
 const Update_doctor = () => {
   const { getId } = useParams();
   const [data_user, setData_user] = useState([]);
