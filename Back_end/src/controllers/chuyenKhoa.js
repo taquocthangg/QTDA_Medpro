@@ -1,5 +1,5 @@
 import * as services from '../sevices'
-
+// Khum biếc code rì :))))
 export const themMoiChuyenKhoa = async (req, res) => {
     try {
         const { id_benhVien } = req.params;
