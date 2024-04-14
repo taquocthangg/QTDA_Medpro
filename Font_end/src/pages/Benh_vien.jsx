@@ -7,7 +7,6 @@ import "../css/Admin_header.css"
 import logo_icon from "../img/logo/logo.png"
 import { FaRegUser } from "react-icons/fa";
 import { FaHospital } from "react-icons/fa";
-import { BsNewspaper } from "react-icons/bs";
 import flash from "../img/Admin/Header_Admin/icon_flash.jpg"
 import { AiOutlineBell } from "react-icons/ai";
 import "../css/Admin_header.css"
