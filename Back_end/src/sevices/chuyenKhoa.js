@@ -1,5 +1,5 @@
 import db from '../models'
-
+// Khoái là con chó
 export const themChuyenKhoa = ({ name, description, id_benhVien, price }) => new Promise(async (resolve, reject) => {
     try {
         const specialization = await db.Sescription.create({
