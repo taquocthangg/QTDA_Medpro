@@ -1,5 +1,5 @@
 import * as services from '../sevices'
-
+// Khum biếc code rì :))))
 export const dangKi = async (req, res) => {
     try {
         const fileData = req.file;
