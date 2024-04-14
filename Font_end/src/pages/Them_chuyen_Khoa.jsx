@@ -1,6 +1,5 @@
 import "../css/Admin.css"
 import "../css/Admin_Simplebar.css"
-import logo_icon from "../img/logo/logo.png"
 import { FaRegUser } from "react-icons/fa";
 import axios from 'axios';
 import { useEffect, useState } from "react";
