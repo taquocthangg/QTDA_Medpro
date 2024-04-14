@@ -3,9 +3,6 @@ import '../css/uslogin.css'
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { HiOutlineMail } from "react-icons/hi";
 import { RiLockPasswordLine } from "react-icons/ri";
-import Iconzalo from '../img/iconzalo.png'
-import Icongg from '../img/icongg.png'
-import Iconfb from '../img/iconfb.png'
 import logo from '../img/logo/logo.png'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
