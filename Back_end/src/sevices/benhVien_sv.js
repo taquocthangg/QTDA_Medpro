@@ -1,6 +1,6 @@
 import { Op } from "sequelize";
 import db from '../models'
-
+// Chó khoái
 
 
 export const getBenhVien = ({ page, limit, order, name, sex, address, ...query }) => new Promise(async (resolve, reject) => {
