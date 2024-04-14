@@ -6,7 +6,6 @@ const router = express.Router();
 router.post('/', uploadCloud.single('image'), controller.dangKi)
 router.post('/upload-image', uploadCloud.single('image'), controller.uploadImg)
 router.post('/login', controller.dangNhap)
-// Định tuyến cho yêu cầu quên mật khẩu
 router.post('/forgot-password', controller.forgotPassword);
 
 // Định tuyến cho yêu cầu đặt lại mật khẩu
