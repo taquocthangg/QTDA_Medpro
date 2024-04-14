@@ -2,7 +2,7 @@
 
 const Layout = () => {
   return (
-    <div>aaa</div>
+    <div>Layout</div>
   )
 }
 
