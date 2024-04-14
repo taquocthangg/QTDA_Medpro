@@ -8,7 +8,6 @@
 import { Link, useNavigate } from 'react-router-dom'
 import Why from '../componnets/Why'
 import '../css/phongkham.css'
-import { FaArrowRight } from "react-icons/fa"
 import { thongke } from '../data'
 import Whys from '../componnets/Whys'
 import laptop from '../img/phongkham/laptop_banner.5b289611.png'
