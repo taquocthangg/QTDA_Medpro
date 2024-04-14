@@ -1,6 +1,7 @@
 import { Op } from "sequelize";
 import db from '../models'
 import bcrypt from 'bcryptjs'
+// Hmmm
 const hashPassword = password => bcrypt.hashSync(password, bcrypt.genSaltSync(9))
 
 
