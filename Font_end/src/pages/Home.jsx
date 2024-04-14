@@ -19,7 +19,7 @@ import { banner, CHOOSE, hethongbenhvien, support, procedure, news } from '../da
 import { DownLoad } from "./DownLoad";
 import { useEffect, useState } from "react";
 import api from './api';
-import { isAuthenticated, logout, handleAuthentication } from './auth';
+import { isAuthenticated, handleAuthentication } from './auth';
 
 const userId = localStorage.getItem('userId');
 
