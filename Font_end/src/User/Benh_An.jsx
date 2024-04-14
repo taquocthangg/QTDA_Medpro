@@ -3,7 +3,7 @@ import React from 'react';
 const BenhAn = () => {
     return (
         <div>
-            sdnj
+            Bệnh Án
         </div>
     );
 }
