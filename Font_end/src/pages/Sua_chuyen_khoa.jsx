@@ -53,7 +53,6 @@ const Sua_Chuyen_Khoa = () => {
   };
 
   const handleUpdate = () => {
-    // Tạo object chứa dữ liệu muốn gửi lên server
     const updatedData = {};
 
     // Kiểm tra từng trường và chỉ thêm vào object nếu có giá trị
