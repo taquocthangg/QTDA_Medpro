@@ -26,7 +26,7 @@ const XemLK = () => {
             setLichKham(response.data)
             console.log('Response from API:', response.data);
         } catch (error) {
-            console.error('Error:', error);
+            console.error('Errors:', error);
         }
     }, [])
     console.log(bacsi)
@@ -82,7 +82,6 @@ const XemLK = () => {
             ) :
                 null
             }
-
         </div>
     );
 }
