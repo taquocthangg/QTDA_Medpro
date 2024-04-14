@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios';
-import { Link, useNavigate, useParams,useHistory } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { useEffect, useState } from "react";
 import '../css/Update_User_Detail.css'
 import background_Admin from "../img/Admin/backgroundUpdate.webp";
