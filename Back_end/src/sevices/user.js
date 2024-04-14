@@ -2,7 +2,7 @@ import { Op } from "sequelize";
 import db from '../models'
 
 
-
+// Lú luôn mà
 export const getUser = ({ page, limit, order, name, sex, address, ...query }) => new Promise(async (resolve, reject) => {
     try {
         const queries = { raw: true, nest: true }
