@@ -14,13 +14,17 @@ Trả về một đối tượng JSON chứa thông tin của sản phẩm, bao 
 * **price:** Số nguyên, giá của sản phẩm.
 
 **Ví dụ:**
+```markdown
+```bash
+# Tạo một thư mục mới
+mkdir my_project
 
+# Truy cập vào thư mục đó
+cd my_project
 ```bash
 curl -X GET http://your-api-url/products/123
 
-GET /products/123
-
-// Phản hồi:
+**Phản hồi:**
 {
   "id": 123,
   "name": "Táo",
