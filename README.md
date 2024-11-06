@@ -66,4 +66,15 @@ Hopitech là phần mềm đặt khám online, cung cấp các API để quản 
 **Endpoint:** `/api/v1/user`
 
 **Tham số:**
-**Authorization:** Bearer token
+**Authorization:** "Bearer token"
+
+## Mã Trạng Thái
+
+
+| Mã Trạng Thái | Mô Tả |
+| :--- | :--- |
+| 200 | OK |
+| 201 | CREATED |
+| 400 | BAD REQUEST |
+| 404 | NOT FOUND |
+| 500 | INTERNAL SERVER ERROR |
