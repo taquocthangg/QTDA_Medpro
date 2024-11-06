@@ -13,7 +13,7 @@ Hopitech là phần mềm đặt khám online, cung cấp các API để quản 
 **Tham số:**
 ```json
 {
-  "username": "string",  // Tên người dùng
+  "username": "string",  "// Tên người dùng"
   "password": "string",  // Mật khẩu người dùng
   "email": "string"      // Địa chỉ email người dùng
 }
@@ -24,7 +24,7 @@ Hopitech là phần mềm đặt khám online, cung cấp các API để quản 
   {
   "message": "Đăng ký tài khoản thành công!!!",
   "success": true,
-  "data": token
+  "data": "token"
 }
 
 }
