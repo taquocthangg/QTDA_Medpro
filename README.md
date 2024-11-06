@@ -17,3 +17,12 @@ Trả về một đối tượng JSON chứa thông tin của sản phẩm, bao 
 
 ```bash
 curl -X GET http://your-api-url/products/123
+
+GET /products/123
+
+// Phản hồi:
+{
+  "id": 123,
+  "name": "Táo",
+  "price": 10000
+}
